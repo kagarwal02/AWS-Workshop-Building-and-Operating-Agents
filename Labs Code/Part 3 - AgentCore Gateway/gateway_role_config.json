@@ -1,0 +1,8 @@
+{
+  "role_arn": "arn:aws:iam::887674257397:role/AgentCoreGatewayRole-1774640582",
+  "role_name": "AgentCoreGatewayRole-1774640582",
+  "policy_arn": "arn:aws:iam::887674257397:policy/AgentCoreGatewayPolicy-1774640582",
+  "policy_name": "AgentCoreGatewayPolicy-1774640582",
+  "region": "us-west-2",
+  "account_id": "887674257397"
+}

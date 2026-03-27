@@ -1,0 +1,32 @@
+{
+  "gateway_id": "returnsrefundsgateway-psciusktug",
+  "gateway_url": "https://returnsrefundsgateway-psciusktug.gateway.bedrock-agentcore.us-west-2.amazonaws.com/mcp",
+  "gateway_arn": "arn:aws:bedrock-agentcore:us-west-2:887674257397:gateway/returnsrefundsgateway-psciusktug",
+  "name": "ReturnsRefundsGateway",
+  "region": "us-west-2",
+  "targets": [
+    {
+      "target_id": "ACH3M0DNSC",
+      "target_name": "OrderLookup",
+      "lambda_arn": "arn:aws:lambda:us-west-2:887674257397:function:OrderLookupFunction",
+      "tool_schema": [
+        {
+          "name": "lookup_order",
+          "description": "Look up order details by order ID. Returns order information including product name, purchase date, amount, and return eligibility.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "order_id": {
+                "type": "string",
+                "description": "The order ID to look up (e.g., ORD-001, ORD-002, ORD-003)"
+              }
+            },
+            "required": [
+              "order_id"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

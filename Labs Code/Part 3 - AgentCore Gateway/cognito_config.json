@@ -1,0 +1,9 @@
+{
+  "user_pool_id": "us-west-2_qNKUPwzVm",
+  "domain_prefix": "returns-agent-1774640154",
+  "client_id": "5kscjj3l4i49nas4djtp77ubnv",
+  "client_secret": "f8rb6vqfpt3dmq1upppc23ivgnfue0ea62rie9qtis50p9tdv7p",
+  "token_endpoint": "https://returns-agent-1774640154.auth.us-west-2.amazoncognito.com/oauth2/token",
+  "discovery_url": "https://cognito-idp.us-west-2.amazonaws.com/us-west-2_qNKUPwzVm/.well-known/openid-configuration",
+  "region": "us-west-2"
+}

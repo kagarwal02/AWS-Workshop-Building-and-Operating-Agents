@@ -1,0 +1,8 @@
+{
+  "agent_arn": "arn:aws:bedrock-agentcore:us-west-2:887674257397:runtime/returns_refunds_agent-XjpIoi9B7x",
+  "agent_name": "returns_refunds_agent",
+  "region": "us-west-2",
+  "memory_id": "returns_refunds_memory-1BwA6E5SpY",
+  "gateway_url": "https://returnsrefundsgateway-psciusktug.gateway.bedrock-agentcore.us-west-2.amazonaws.com/mcp",
+  "knowledge_base_id": "W3TAAPOVCZ"
+}
